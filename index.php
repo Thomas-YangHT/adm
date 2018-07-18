@@ -97,7 +97,7 @@
                       <li><a data-href='bindconf/index.php'    data-title="[Bind配置]"       href="javascript:void(0)" >[DNS配置]</a></li> 		
 					  <li><a data-href='http://webvirtmgr.yunwei.edu'    data-title="[虚拟机管理]"       href="javascript:void(0)" >[webvirtmgr]</a></li> 					  
 					  <li><a data-href='http://registry.yunwei.edu'    data-title="[docker镜相]"       href="javascript:void(0)" >[registry]</a></li> 	
-					  <li><a data-href='http://cobbler.yunwei.edu'    data-title="[cobbler自动安装]"       href="javascript:void(0)" >[cobbler自动安装]</a></li> 	
+					  <li><a data-href='http://cobbler.yunwei.edu/cobbler_web'    data-title="[cobbler自动安装]"       href="javascript:void(0)" >[cobbler自动安装]</a></li> 	
 					  
 				</ul>
 			</dd>
