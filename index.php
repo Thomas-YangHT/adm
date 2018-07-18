@@ -79,9 +79,9 @@
 			<dt><i class="Hui-iconfont">&#xe616;</i> 访问日志分析<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=grafana'    data-title="[访问日志grafana]"       href="javascript:void(0)" >[访问grafana]</a></li>
-					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=zahbix'     data-title="[访问日志zabbix]"       href="javascript:void(0)" >[访问zabbix]</a></li>
-					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=download'     data-title="[访问日志download]"       href="javascript:void(0)" >[访问download]</a></li>
+					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=grafana'    data-title="[访问日志grafana]"        href="javascript:void(0)" >[访问grafana]</a></li>
+					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=zahbix'     data-title="[访问日志zabbix]"         href="javascript:void(0)" >[访问zabbix]</a></li>
+					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=download'   data-title="[访问日志download]"       href="javascript:void(0)" >[访问download]</a></li>
 						   
 				</ul>
 			</dd>
@@ -97,6 +97,8 @@
                       <li><a data-href='bindconf/index.php'    data-title="[Bind配置]"       href="javascript:void(0)" >[DNS配置]</a></li> 		
 					  <li><a data-href='http://webvirtmgr.yunwei.edu'    data-title="[虚拟机管理]"       href="javascript:void(0)" >[webvirtmgr]</a></li> 					  
 					  <li><a data-href='http://registry.yunwei.edu'    data-title="[docker镜相]"       href="javascript:void(0)" >[registry]</a></li> 	
+					  <li><a data-href='http://cobbler.yunwei.edu'    data-title="[cobbler自动安装]"       href="javascript:void(0)" >[cobbler自动安装]</a></li> 	
+					  
 				</ul>
 			</dd>
 		</dl>
@@ -125,11 +127,11 @@
 			<dt><i class="Hui-iconfont">&#xe616;</i> 其它开源应用<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					  <li><a data-href='http://kibana.yunwei.edu:5601'      data-title="[kibana示例]"         href="javascript:void(0)" >[kibana示例]</a></li>
-					  <li><a data-href='http://cockpit.yunwei.edu:9090'      data-title="[cockpit示例]"        href="javascript:void(0)" >[cockpit示例]</a></li>
-					  <li><a data-href='http://k8s.yunwei.edu:18080/ui'  data-title="[kubernetes示例]"     href="javascript:void(0)" >[kubernetes示例]</a></li>
+					  <li><a data-href='http://openstack.yunwei.edu'      data-title="[OPENSTACK示例]"           href="javascript:void(0)" >[OPENSTACK]</a></li>
+					  <li><a data-href='http://kibana.yunwei.edu:5601'      data-title="[kibana示例]"            href="javascript:void(0)" >[kibana示例]</a></li>
+					  <li><a data-href='http://k8s.yunwei.edu:18080/ui'  data-title="[kubernetes示例]"           href="javascript:void(0)" >[kubernetes示例]</a></li>
    					  <li><a data-href='https://account.aliyun.com/login/login.htm'  data-title="[阿里镜相]"     href="javascript:void(0)" >[阿里镜相]</a></li>
-   					  <li><a data-href='https://id.163yun.com/register?h=wyygw&referrer=https://console.163yun.com'  data-title="[网易镜相]"     href="javascript:void(0)" >[网易镜相]</a></li>                  
+   					  <li><a data-href='https://console.163yun.com'        data-title="[网易镜相]"        href="javascript:void(0)" >[网易镜相]</a></li>                  
    					  <li><a data-href='https://console.qingcloud.com/login'  data-title="[青云链接]"     href="javascript:void(0)" >[青云链接]</a></li>
 					  
 			  </ul>
