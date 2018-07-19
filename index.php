@@ -68,7 +68,7 @@
 					  <li><a data-href='http://docker2.yunwei.edu:9000'    data-title="[swarm 管理]"       href="javascript:void(0)" >[portainer-docker2]</a></li>	
 					  <li><a data-href='http://ranchar.yunwei.edu:8080'    data-title="[Rancher 管理]"       href="javascript:void(0)" >[Rancher]</a></li>	
 					-->
-  					  <li><a data-href='http://scope.yunwei.edu'    data-title="[weave scope 管理]"     href="javascript:void(0)" >[scope]</a></li>	
+  					  <li><a data-href='http://scope.yunwei.edu:4040'    data-title="[weave scope 管理]"     href="javascript:void(0)" >[scope]</a></li>	
                       <li><a data-href='http://download2.yunwei.edu'    data-title="[http下载]"       href="javascript:void(0)" >[http下载]</a></li> 					  
 					 <!--	  <li><a data-href='ftp://ftp2.yunwei.edu'    data-title="[ftp下载]"       href="javascript:void(0)" >[ftp下载]</a></li> 	-->					   
 				</ul>
