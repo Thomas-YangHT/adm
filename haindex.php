@@ -95,6 +95,7 @@
 					  <li><a data-href='http://dns.yunwei.edu:8080'    data-title="[dnsmasq设置]"       href="javascript:void(0)" >[dnsmasq设置]</a></li>-->
 					  <li><a data-href='ngxconf/index.php'    data-title="[Nginx配置]"       href="javascript:void(0)" >[Nginx配置]</a></li> 	
                       <li><a data-href='bindconf/index.php'    data-title="[Bind配置]"       href="javascript:void(0)" >[DNS配置]</a></li> 		
+                      <li><a data-href='haprconf/index.php'    data-title="[Haproxy配置]"    href="javascript:void(0)" >[Haproxy配置]</a></li> 		
 					  <li><a data-href='http://hwebvirtmgr.yunwei.edu'    data-title="[虚拟机管理]"       href="javascript:void(0)" >[webvirtmgr]</a></li> 					  
 					  <li><a data-href='http://hregistry.yunwei.edu'    data-title="[docker镜相]"       href="javascript:void(0)" >[registry]</a></li> 	
 					  <li><a data-href='http://hcobbler.yunwei.edu/cobbler_web'    data-title="[cobbler自动安装]"       href="javascript:void(0)" >[cobbler自动安装]</a></li> 	
