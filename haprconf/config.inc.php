@@ -12,7 +12,7 @@
 	$LOGFILE="/usr/share/nginx/html/adm/haprconf/haprconf.log";
 	$LOGROWS=100;
 	$CMD_STATUS="sudo -u root ssh ".$DH_IP." docker ps -a --format \"{{.Names}}\;{{.Status}}\;{{.Ports}}\"|grep ".$DC_NAME;
-	$CMD_TEST="sudo -u root ssh ".$DH_IP." docker exec ".$DCMP_NAME." haproxy -c -f /etc/haproxy/haproxy.cfg 2>&1";
+	$CMD_TEST="sudo -u root ssh ".$DH_IP." docker exec ".$DCMP_NAME." haproxy -c -f /usr/local/etc/haproxy/haproxy.cfg 2>&1";
 	#$CMD_RESTART="sudo -u root ssh ".$DH_IP." docker restart ".$DC_NAME." 2>&1";
 	$CMD_RESTART="sudo -u root ssh ".$DH_IP." docker restart ".$DCMP_NAME." 2>&1";
 	$CMD_RESTART2="sudo -u root ssh ".$DH_IP2." docker restart ".$DCMP_NAME." 2>&1";
