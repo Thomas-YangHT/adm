@@ -318,11 +318,11 @@ if(obj1.style.display==""){
 	 include_once("config.inc.php");
 	 GET_STATUS();
 	 echo "<li><a href='open.php?file=".$DEFAULT_FILE."' target='upframe'>".$DEFAULT_FILE."</a><li>";
-	 $cmd="sudo -u root sh ./get_ngxconf.sh ".$CONF;
-     exec($cmd,$tmp,$tmpout);
-     foreach ($tmp as $a){
-        echo $a."</br>";
-     }
+	// $cmd="sudo -u root sh ./get_ngxconf.sh ".$CONF;
+    // exec($cmd,$tmp,$tmpout);
+    // foreach ($tmp as $a){
+    //    echo $a."</br>";
+    // }
 ?>	 
 <!---insert here--->
  <!---       <li>
