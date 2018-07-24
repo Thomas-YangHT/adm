@@ -125,12 +125,12 @@
 		</dl>
 
 		<dl id="menu-article">
-			<dt><i class="Hui-iconfont">&#xe616;</i> 其它开源应用<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dt><i class="Hui-iconfont">&#xe616;</i> 云计算平台<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
 					  <li><a data-href='http://hopenstack.yunwei.edu'      data-title="[OPENSTACK示例]"           href="javascript:void(0)" >[OPENSTACK]</a></li>
 					  <li><a data-href='http://hkibana.yunwei.edu:5601'      data-title="[kibana示例]"            href="javascript:void(0)" >[kibana示例]</a></li>
-					  <li><a data-href='http://hk8s.yunwei.edu:18080/ui'  data-title="[kubernetes示例]"           href="javascript:void(0)" >[kubernetes示例]</a></li>
+					  <li><a data-href='https://hk8s.yunwei.edu:37517'  data-title="[kubernetes示例]"           href="javascript:void(0)" >[kubernetes示例]</a></li>
    					  <li><a data-href='https://account.aliyun.com/login/login.htm'  data-title="[阿里镜相]"     href="javascript:void(0)" >[阿里镜相]</a></li>
    					  <li><a data-href='https://console.163yun.com'        data-title="[网易镜相]"        href="javascript:void(0)" >[网易镜相]</a></li>                  
    					  <li><a data-href='https://console.qingcloud.com/login'  data-title="[青云链接]"     href="javascript:void(0)" >[青云链接]</a></li>
