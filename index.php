@@ -156,13 +156,13 @@
 			<dt><i class="Hui-iconfont">&#xe616;</i> 硬件管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-   					  <li><a data-href=''  data-title="[idrac201]"     href="https://172.16.254.201/login.html" target="_blank">[idrac201]</a></li>
-   					  <li><a data-href=''  data-title="[idrac202]"     href="https://172.16.254.202/login.html" target="_blank">[idrac202]</a></li>
-   					  <li><a data-href=''  data-title="[idrac203]"     href="https://172.16.254.203/login.html" target="_blank">[idrac203]</a></li>
-   					  <li><a data-href=''  data-title="[idrac204]"     href="https://172.16.254.204/login.html" target="_blank">[idrac204]</a></li>
-   					  <li><a data-href=''  data-title="[idrac205]"     href="https://172.16.254.205/login.html" target="_blank">[idrac205]</a></li>
-   					  <li><a data-href=''  data-title="[idrac206]"     href="https://172.16.254.206/login.html" target="_blank">[idrac206]</a></li>
-   					  <li><a data-href=''  data-title="[idrac207]"     href="https://172.16.254.207/login.html" target="_blank">[idrac207]</a></li>
+   					  <li><a data-href=' '  data-title="[idrac201]"     href="https://172.16.254.201/login.html" target="_blank">[idrac201]</a></li>
+   					  <li><a data-href=' '  data-title="[idrac202]"     href="https://172.16.254.202/login.html" target="_blank">[idrac202]</a></li>
+   					  <li><a data-href=' '  data-title="[idrac203]"     href="https://172.16.254.203/login.html" target="_blank">[idrac203]</a></li>
+   					  <li><a data-href=' '  data-title="[idrac204]"     href="https://172.16.254.204/login.html" target="_blank">[idrac204]</a></li>
+   					  <li><a data-href=' '  data-title="[idrac205]"     href="https://172.16.254.205/login.html" target="_blank">[idrac205]</a></li>
+   					  <li><a data-href=' '  data-title="[idrac206]"     href="https://172.16.254.206/login.html" target="_blank">[idrac206]</a></li>
+   					  <li><a data-href=' '  data-title="[idrac207]"     href="https://172.16.254.207/login.html" target="_blank">[idrac207]</a></li>
 					  <li><a data-href='http://172.16.0.1'  data-title="[出口路由]"     href="javascript:void(0)" >[出口路由]</a></li>
                    
 			  </ul>
@@ -173,8 +173,8 @@
 			<dt><i class="Hui-iconfont">&#xe616;</i> 操作日志<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					  <li><a data-href='showoplog.php'             data-title="[查询本系统操作日志]"   href="javascript:void(0)" >[本系统操作日志]</a></li>
-					  <li><a data-href='dockermg/tailffile.php'   data-title="[查询其它应用日志]"          href="javascript:void(0)" >[查询其它服务器日志]</a></li>
+					  <li><a data-href='showoplog.php'            data-title="[查询本系统操作日志]"     href="javascript:void(0)" >[本系统操作日志]</a></li>
+					  <li><a data-href='dockermg/tailffile.php'   data-title="[查询其它应用日志]"       href="javascript:void(0)" >[查询其它服务器日志]</a></li>
 				</ul>
 			</dd>
 		</dl>			
