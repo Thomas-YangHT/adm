@@ -142,7 +142,7 @@
 				<ul>
 					  <!--<li><a data-href='http://openstack.yunwei.edu'        data-title="[OPENSTACK示例]"           href="javascript:void(0)" >[OPENSTACK]</a></li>-->
 					  <li><a data-href='http://openstack.yunwei.edu' data-title="[OPENSTACK示例]" href='http://openstack.yunwei.edu'  target="_blank">[OPENSTACK]</a></li>
-					  <li><a data-href='http://hharbor.yunwei.edu'      data-title="[harbor]"           href="javascript:void(0)" >[harbor]</a></li>
+					  <li><a data-href='http://harbor.yunwei.edu'      data-title="[harbor镜相管理]"           href="javascript:void(0)" >[harbor]</a></li>
 					  <li><a data-href='https://k8s.yunwei.edu:37517'      data-title="[kubernetes示例]"           href="javascript:void(0)" >[kubernetes示例]</a></li>
    					  <li><a data-href='https://account.aliyun.com/login/login.htm'  data-title="[阿里镜相]"     href="javascript:void(0)" >[阿里镜相]</a></li>
    					  <li><a data-href='https://console.163yun.com'        data-title="[网易镜相]"        href="javascript:void(0)" >[网易镜相]</a></li>                  
@@ -156,13 +156,13 @@
 			<dt><i class="Hui-iconfont">&#xe616;</i> 硬件管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-   					  <li><a data-href='https://172.16.254.201/login.html'  data-title="[idrac201]"     href="https://172.16.254.201/login.html" target="_blank">[idrac201]</a></li>
-   					  <li><a data-href='https://172.16.254.202/login.html'  data-title="[idrac202]"     href="https://172.16.254.202/login.html" target="_blank">[idrac202]</a></li>
-   					  <li><a data-href='https://172.16.254.203/login.html'  data-title="[idrac203]"     href="https://172.16.254.203/login.html" target="_blank">[idrac203]</a></li>
-   					  <li><a data-href='https://172.16.254.204/login.html'  data-title="[idrac204]"     href="https://172.16.254.204/login.html" target="_blank">[idrac204]</a></li>
-   					  <li><a data-href='https://172.16.254.205/login.html'  data-title="[idrac205]"     href="https://172.16.254.205/login.html" target="_blank">[idrac205]</a></li>
-   					  <li><a data-href='https://172.16.254.206/login.html'  data-title="[idrac206]"     href="https://172.16.254.206/login.html" target="_blank">[idrac206]</a></li>
-   					  <li><a data-href='https://172.16.254.207/login.html'  data-title="[idrac207]"     href="https://172.16.254.207/login.html" target="_blank">[idrac207]</a></li>
+   					  <li><a data-href=''  data-title="[idrac201]"     href="https://172.16.254.201/login.html" target="_blank">[idrac201]</a></li>
+   					  <li><a data-href=''  data-title="[idrac202]"     href="https://172.16.254.202/login.html" target="_blank">[idrac202]</a></li>
+   					  <li><a data-href=''  data-title="[idrac203]"     href="https://172.16.254.203/login.html" target="_blank">[idrac203]</a></li>
+   					  <li><a data-href=''  data-title="[idrac204]"     href="https://172.16.254.204/login.html" target="_blank">[idrac204]</a></li>
+   					  <li><a data-href=''  data-title="[idrac205]"     href="https://172.16.254.205/login.html" target="_blank">[idrac205]</a></li>
+   					  <li><a data-href=''  data-title="[idrac206]"     href="https://172.16.254.206/login.html" target="_blank">[idrac206]</a></li>
+   					  <li><a data-href=''  data-title="[idrac207]"     href="https://172.16.254.207/login.html" target="_blank">[idrac207]</a></li>
 					  <li><a data-href='http://172.16.0.1'  data-title="[出口路由]"     href="javascript:void(0)" >[出口路由]</a></li>
                    
 			  </ul>
