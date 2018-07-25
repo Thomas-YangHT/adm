@@ -68,13 +68,26 @@
 					  <li><a data-href='http://docker2.yunwei.edu:9000'    data-title="[swarm 管理]"       href="javascript:void(0)" >[portainer-docker2]</a></li>	
 					  <li><a data-href='http://ranchar.yunwei.edu:8080'    data-title="[Rancher 管理]"       href="javascript:void(0)" >[Rancher]</a></li>	
 					-->
-  					  <li><a data-href='http://scope.yunwei.edu:4040'    data-title="[weave scope 管理]"     href="javascript:void(0)" >[scope]</a></li>	
-                      <li><a data-href='http://download2.yunwei.edu'    data-title="[http下载]"       href="javascript:void(0)" >[http下载]</a></li> 					  
-					 <!--	  <li><a data-href='ftp://ftp2.yunwei.edu'    data-title="[ftp下载]"       href="javascript:void(0)" >[ftp下载]</a></li> 	-->					   
+  					  <li><a data-href='http://scope.yunwei.edu:4040'        data-title="[weave scope 管理]"     href="javascript:void(0)" >[scope]</a></li>	
+  					  <li><a data-href='http://172.16.254.116:1080/stats'    data-title="[haproxy状态]"          href="javascript:void(0)" >[haproxy状态]</a></li>	
+                    				   
 				</ul>
 			</dd>
 		</dl>
 
+		<dl id="menu-article">
+			<dt><i class="Hui-iconfont">&#xe616;</i> 公共服务<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dd>
+				<ul>
+					  <li><a data-href='http://download2.yunwei.edu'    data-title="[http下载]"       href="javascript:void(0)" >[http下载]</a></li> 					  
+					 <!--	  <li><a data-href='ftp://ftp2.yunwei.edu'    data-title="[ftp下载]"       href="javascript:void(0)" >[ftp下载]</a></li> 	-->	
+				      <li><a data-href='ftp://ftp2.yunwei.edu'          data-title="[ftp下载]"         href="ftp://ftp2.yunwei.edu" target="_blank">[ftp下载]</a> </li> 
+					  <li><a data-href='http://registry.yunwei.edu'     data-title="[docker镜相]"       href="javascript:void(0)" >[registry]</a></li> 	
+					  <li><a data-href='http://cobbler.yunwei.edu/cobbler_web'    data-title="[cobbler自动安装]"       href="javascript:void(0)" >[cobbler自动安装]</a></li> 	
+				 </ul>
+			</dd>
+		</dl>	
+		
 		<dl id="menu-article">
 			<dt><i class="Hui-iconfont">&#xe616;</i> 访问日志分析<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
@@ -82,6 +95,7 @@
 					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=grafana'    data-title="[访问日志grafana]"        href="javascript:void(0)" >[访问grafana]</a></li>
 					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=zahbix'     data-title="[访问日志zabbix]"         href="javascript:void(0)" >[访问zabbix]</a></li>
 					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=download'   data-title="[访问日志download]"       href="javascript:void(0)" >[访问download]</a></li>
+					  <li><a data-href='http://kibana.yunwei.edu:5601'      data-title="[kibana示例]"            href="javascript:void(0)" >[kibana示例]</a></li>
 						   
 				</ul>
 			</dd>
@@ -95,11 +109,9 @@
 					  <li><a data-href='http://dns.yunwei.edu:8080'    data-title="[dnsmasq设置]"       href="javascript:void(0)" >[dnsmasq设置]</a></li>-->
 					  <li><a data-href='ngxconf/index.php'    data-title="[Nginx配置]"       href="javascript:void(0)" >[Nginx配置]</a></li> 	
                       <li><a data-href='bindconf/index.php'    data-title="[Bind配置]"       href="javascript:void(0)" >[DNS配置]</a></li> 		
-                      <li><a data-href='haprconf/index.php'    data-title="[Haproxy配置]"       href="javascript:void(0)" >[Haproxy配置]</a></li> 		
+                      <li><a data-href='haprconf/index.php'    data-title="[Haproxy配置]"       href="javascript:void(0)" >[Haproxy配置]</a></li> 	
 					  <li><a data-href='http://webvirtmgr.yunwei.edu'    data-title="[虚拟机管理]"       href="javascript:void(0)" >[webvirtmgr]</a></li> 					  
-					  <li><a data-href='http://registry.yunwei.edu'    data-title="[docker镜相]"       href="javascript:void(0)" >[registry]</a></li> 	
-					  <li><a data-href='http://cobbler.yunwei.edu/cobbler_web'    data-title="[cobbler自动安装]"       href="javascript:void(0)" >[cobbler自动安装]</a></li> 	
-					  
+				  
 				</ul>
 			</dd>
 		</dl>
@@ -128,10 +140,10 @@
 			<dt><i class="Hui-iconfont">&#xe616;</i> 云计算平台<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					  <li><a data-href='http://openstack.yunwei.edu'        data-title="[OPENSTACK示例]"           href="javascript:void(0)" >[OPENSTACK]</a></li>
+					  <!--<li><a data-href='http://openstack.yunwei.edu'        data-title="[OPENSTACK示例]"           href="javascript:void(0)" >[OPENSTACK]</a></li>-->
+					  <li><a data-href='http://openstack.yunwei.edu' data-title="[OPENSTACK示例]" href='http://openstack.yunwei.edu'  target="_blank">[OPENSTACK]</a></li>
 					  <li><a data-href='http://hharbor.yunwei.edu'      data-title="[harbor]"           href="javascript:void(0)" >[harbor]</a></li>
 					  <li><a data-href='https://k8s.yunwei.edu:37517'      data-title="[kubernetes示例]"           href="javascript:void(0)" >[kubernetes示例]</a></li>
-					  <li><a data-href='http://kibana.yunwei.edu:5601'      data-title="[kibana示例]"            href="javascript:void(0)" >[kibana示例]</a></li>
    					  <li><a data-href='https://account.aliyun.com/login/login.htm'  data-title="[阿里镜相]"     href="javascript:void(0)" >[阿里镜相]</a></li>
    					  <li><a data-href='https://console.163yun.com'        data-title="[网易镜相]"        href="javascript:void(0)" >[网易镜相]</a></li>                  
    					  <li><a data-href='https://console.qingcloud.com/login'  data-title="[青云链接]"     href="javascript:void(0)" >[青云链接]</a></li>
@@ -144,13 +156,13 @@
 			<dt><i class="Hui-iconfont">&#xe616;</i> 硬件管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-   					  <li><a data-href='https://172.16.254.201/login.html'  data-title="[idrac201]"     href="javascript:void(0)" >[idrac201]</a></li>
-   					  <li><a data-href='https://172.16.254.202/login.html'  data-title="[idrac202]"     href="javascript:void(0)" >[idrac202]</a></li>
-   					  <li><a data-href='https://172.16.254.203/login.html'  data-title="[idrac203]"     href="javascript:void(0)" >[idrac203]</a></li>
-   					  <li><a data-href='https://172.16.254.204/login.html'  data-title="[idrac204]"     href="javascript:void(0)" >[idrac204]</a></li>
-   					  <li><a data-href='https://172.16.254.205/login.html'  data-title="[idrac205]"     href="javascript:void(0)" >[idrac205]</a></li>
-   					  <li><a data-href='https://172.16.254.206/login.html'  data-title="[idrac206]"     href="javascript:void(0)" >[idrac206]</a></li>
-   					  <li><a data-href='https://172.16.254.207/login.html'  data-title="[idrac207]"     href="javascript:void(0)" >[idrac207]</a></li>
+   					  <li><a data-href='https://172.16.254.201/login.html'  data-title="[idrac201]"     href="https://172.16.254.201/login.html" target="_blank">[idrac201]</a></li>
+   					  <li><a data-href='https://172.16.254.202/login.html'  data-title="[idrac202]"     href="https://172.16.254.202/login.html" target="_blank">[idrac202]</a></li>
+   					  <li><a data-href='https://172.16.254.203/login.html'  data-title="[idrac203]"     href="https://172.16.254.203/login.html" target="_blank">[idrac203]</a></li>
+   					  <li><a data-href='https://172.16.254.204/login.html'  data-title="[idrac204]"     href="https://172.16.254.204/login.html" target="_blank">[idrac204]</a></li>
+   					  <li><a data-href='https://172.16.254.205/login.html'  data-title="[idrac205]"     href="https://172.16.254.205/login.html" target="_blank">[idrac205]</a></li>
+   					  <li><a data-href='https://172.16.254.206/login.html'  data-title="[idrac206]"     href="https://172.16.254.206/login.html" target="_blank">[idrac206]</a></li>
+   					  <li><a data-href='https://172.16.254.207/login.html'  data-title="[idrac207]"     href="https://172.16.254.207/login.html" target="_blank">[idrac207]</a></li>
 					  <li><a data-href='http://172.16.0.1'  data-title="[出口路由]"     href="javascript:void(0)" >[出口路由]</a></li>
                    
 			  </ul>

@@ -129,8 +129,9 @@
 			<dd>
 				<ul>
 					  <li><a data-href='http://hopenstack.yunwei.edu'      data-title="[OPENSTACK示例]"           href="javascript:void(0)" >[OPENSTACK]</a></li>
+					  <li><a data-href='http://hharbor.yunwei.edu'      data-title="[harbor]"           href="javascript:void(0)" >[harbor]</a></li>
+					  <li><a data-href='https://hk8s.yunwei.edu:37517'  data-title="[kubernetes示例]"           href="javascript:void(0)" >[kubernetes示例]</a></li>					  
 					  <li><a data-href='http://hkibana.yunwei.edu:5601'      data-title="[kibana示例]"            href="javascript:void(0)" >[kibana示例]</a></li>
-					  <li><a data-href='https://hk8s.yunwei.edu:37517'  data-title="[kubernetes示例]"           href="javascript:void(0)" >[kubernetes示例]</a></li>
    					  <li><a data-href='https://account.aliyun.com/login/login.htm'  data-title="[阿里镜相]"     href="javascript:void(0)" >[阿里镜相]</a></li>
    					  <li><a data-href='https://console.163yun.com'        data-title="[网易镜相]"        href="javascript:void(0)" >[网易镜相]</a></li>                  
    					  <li><a data-href='https://console.qingcloud.com/login'  data-title="[青云链接]"     href="javascript:void(0)" >[青云链接]</a></li>
