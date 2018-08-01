@@ -93,7 +93,7 @@
 			<dd>
 				<ul>
 					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=grafana'    data-title="[访问日志grafana]"        href="javascript:void(0)" >[访问grafana]</a></li>
-					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=zahbix'     data-title="[访问日志zabbix]"         href="javascript:void(0)" >[访问zabbix]</a></li>
+					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=zabbix'     data-title="[访问日志zabbix]"         href="javascript:void(0)" >[访问zabbix]</a></li>
 					  <li><a data-href='http://awstats.yunwei.edu/awstats.pl?config=download'   data-title="[访问日志download]"       href="javascript:void(0)" >[访问download]</a></li>
 					  <li><a data-href='http://kibana.yunwei.edu:5601'      data-title="[kibana示例]"            href="javascript:void(0)" >[kibana示例]</a></li>
 						   
