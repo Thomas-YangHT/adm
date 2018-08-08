@@ -165,6 +165,8 @@
    					  <li><a data-href=' '  data-title="[idrac206]"     href="https://172.16.254.206/login.html" target="_blank">[idrac206]</a></li>
    					  <li><a data-href=' '  data-title="[idrac207]"     href="https://172.16.254.207/login.html" target="_blank">[idrac207]</a></li>
 					  <li><a data-href='http://172.16.0.1'  data-title="[出口路由]"     href="javascript:void(0)" >[出口路由]</a></li>
+					  <li><a data-href='http://switchex.yunwei.edu'  data-title="[switch-ex]"     href="javascript:void(0)" >[switch-ex]</a></li>
+					  <li><a data-href='http://switchin.yunwei.edu'  data-title="[switch-in]"     href="javascript:void(0)" >[switch-in]</a></li>
                    
 			  </ul>
 			</dd>
