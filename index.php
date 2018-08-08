@@ -83,6 +83,7 @@
 					 <!--	  <li><a data-href='ftp://ftp2.yunwei.edu'    data-title="[ftp下载]"       href="javascript:void(0)" >[ftp下载]</a></li> 	-->	
 				      <li><a data-href='ftp://ftp2.yunwei.edu'          data-title="[ftp下载]"         href="ftp://ftp2.yunwei.edu" target="_blank">[ftp下载]</a> </li> 
 					  <li><a data-href='http://registry.yunwei.edu'     data-title="[docker镜相]"       href="javascript:void(0)" >[registry]</a></li> 	
+					  <li><a data-href='http://gitlab.yunwei.edu'       data-title="[Gitlab]"       href="javascript:void(0)" >[Gitlab]</a></li> 	
 					  <li><a data-href='http://cobbler.yunwei.edu/cobbler_web'    data-title="[cobbler自动安装]"       href="javascript:void(0)" >[cobbler自动安装]</a></li> 	
 				 </ul>
 			</dd>
