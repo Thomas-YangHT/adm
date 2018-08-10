@@ -69,7 +69,7 @@
 					  <li><a data-href='http://ranchar.yunwei.edu:8080'    data-title="[Rancher 管理]"       href="javascript:void(0)" >[Rancher]</a></li>	
 					-->
   					  <li><a data-href='http://scope.yunwei.edu:4040'        data-title="[weave scope 管理]"     href="javascript:void(0)" >[scope]</a></li>	
-  					  <li><a data-href='http://172.16.254.116:1080/stats'    data-title="[haproxy状态]"          href="javascript:void(0)" >[haproxy状态]</a></li>	
+  					  <li><a data-href='http://hadm.yunwei.edu:1080/stats'    data-title="[haproxy状态]"          href="javascript:void(0)" >[haproxy状态]</a></li>	
                     				   
 				</ul>
 			</dd>
