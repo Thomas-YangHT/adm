@@ -142,7 +142,7 @@
 			<dd>
 				<ul>
 					  <!--<li><a data-href='http://openstack.yunwei.edu'        data-title="[OPENSTACK示例]"           href="javascript:void(0)" >[OPENSTACK]</a></li>-->
-					  <li><a data-href='http://openstack.yunwei.edu'   data-title="[OPENSTACK示例]" href='http://openstack.yunwei.edu'  target="_blank">[OPENSTACK]</a></li>
+					  <li><a data-href='http://openstack.yunwei.edu/dashboard'   data-title="[OPENSTACK示例]" href='http://openstack.yunwei.edu/dashboard'  target="_blank">[OPENSTACK]</a></li>
 					  <li><a data-href='http://rabbitmq.yunwei.edu'    data-title="[rabbitmq示例]"   href="javascript:void(0)"   >[rabbitmq]</a></li>
 					  <li><a data-href='http://harbor.yunwei.edu'          data-title="[harbor镜相管理]"           href="javascript:void(0)" >[harbor]</a></li>
 					  <li><a data-href='https://k8s.yunwei.edu:37517'      data-title="[kubernetes示例]"           href="javascript:void(0)" >[kubernetes示例]</a></li>
