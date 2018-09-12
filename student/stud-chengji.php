@@ -120,9 +120,9 @@ echo " </form>\n";
         $sql1="select a.name,b.* from base as a,chengji as b where a.stud_no=b.stud_no and a.stud_no like '".$ClassName."%'";
 		$sql="select * from base order by stud_no";
 	
-		if ($TestLevel==1){$sql=sql1;}
+		if ($TestLevel==1){$sql=$sql1;}
 		echo $sql;
-		#if ($TestLevel==0){$sql=sql;}
+		#if ($TestLevel==0){$sql=$sql;}
         $res=mysql_query($sql,$conn);
         $rows=mysql_affected_rows($conn);//获取行数
         $colums=mysql_num_fields($res);//获取列数
