@@ -90,7 +90,7 @@ echo "</br>";
 echo " <form id='form' name='form' method='post' action='$PHP_SELF'>\n";
 echo " 班级: <input type='text' name='ClassName' id='ClassName' value='1807'>\n";
 echo " 项目: <input type='text' name='TestLevel' id='TestLevel' value='1'>\n";
-echo " 0-学生基本信息；1-计算机基础成绩；\n"
+echo " 0-学生基本信息；1-计算机基础成绩；\n";
 echo "   <input class='shiny-blue' type='submit' name='Submit' value='提交' />\n";
 echo " </form>\n";
 
@@ -115,7 +115,7 @@ echo " </form>\n";
 		#$TestLevel = mysql_real_escape_string($TestLevel);
 		
         mysql_select_db("students",$conn);
-       # mysql_query("SET NAMES GBK");
+        mysql_query("SET NAMES utf8");
 
         $sql1="select a.name,b.* from base as a,chengji as b where a.stud_no=b.stud_no and a.stud_no like '".$ClassName."%'";
 		$sql="select * from base order by stud_no";
