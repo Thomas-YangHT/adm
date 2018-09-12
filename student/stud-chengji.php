@@ -85,7 +85,7 @@ echo "   width:50px;\n";
 echo "    }\n";
 echo " </style>\n";
 echo " </head>\n";
-echo "<body style='margin:0 auto;align:center;'>\n";
+echo "<body style='margin:0 auto;text-align:center;'>\n";
 echo "</br>";
 echo " <form id='form' name='form' method='post' action='$PHP_SELF'>\n";
 echo " 班级: <input type='text' name='ClassName' id='ClassName' value='1807'>\n";
@@ -127,7 +127,7 @@ echo " </form>\n";
         $rows=mysql_affected_rows($conn);//获取行数
         $colums=mysql_num_fields($res);//获取列数
 
-        echo "</br><div style='margin:0 auto;align:center;font-size:22px;font-family:SimHei;'>欢迎您使用数据查询，数据如下：(共计".$rows."行".$colums."列)"."</div></br>\n";
+        echo "</br><div style='margin:0 auto;text-align:center;font-size:22px;font-family:SimHei;'>欢迎您使用数据查询，数据如下：(共计".$rows."行".$colums."列)"."</div></br>\n";
         echo "<table class='altrowstable' id='alternatecolor' style='margin:0 auto;align:center;'> <tr>\n";
 		
         for($i=0; $i < $colums-1; $i++){
