@@ -121,7 +121,7 @@ echo " </form>\n";
 		$sql="select * from base order by stud_no";
 	
 		if ($TestLevel==1){$sql=$sql1;}
-		echo $sql;
+		#echo $sql;
 		#if ($TestLevel==0){$sql=$sql;}
         $res=mysql_query($sql,$conn);
         $rows=mysql_affected_rows($conn);//获取行数
@@ -138,8 +138,6 @@ echo " </form>\n";
         while($row=mysql_fetch_row($res)){
             echo "<tr>\n";
             for($i=0; $i<$colums-1; $i++){
-			 # if($row[$i]!="" and ($i==6 or $i==7 or $i==8)){$row[$i]=round($row[$i],2);}
-			 # if($row[$i]!="" and ($i==6 or $i==14 or $i==15 or $i==16 or $i==17 or $i==18)){$row[$i]=iconv('GBK','UTF-8',$row[$i])."%";}
               echo "<td>".$row[$i]."</td>\n";
             }
             echo "</tr>\n";
