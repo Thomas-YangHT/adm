@@ -121,7 +121,7 @@ echo " </form>\n";
 		$sql="select * from base order by stud_no";
 	
 		if ($TestLevel==1){$sql=sql1;}
-		#echo $sql;
+		echo $sql;
 		#if ($TestLevel==0){$sql=sql;}
         $res=mysql_query($sql,$conn);
         $rows=mysql_affected_rows($conn);//获取行数
