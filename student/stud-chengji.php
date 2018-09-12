@@ -5,7 +5,7 @@ echo " <html>  \n";
 echo "<head>\n";
 echo "  <meta charset='utf-8'>\n";
 echo "  <meta name='viewport' content='width=device-width, initial-scale=1'>\n";
-echo "  <title>MT Query</title>\n";
+echo "  <title>CHENGJI Query</title>\n";
 echo "  <link rel='stylesheet' href='css/jquery-ui.css'>\n";
 echo "  <link rel='stylesheet' href='css/style.css'>\n";
 echo "  <script src='js/jquery-1.12.4.js'></script>\n";
@@ -132,7 +132,7 @@ echo " </form>\n";
 		
         for($i=0; $i < $colums-1; $i++){
             $field_name=mysql_field_name($res,$i);
-            echo "<th>成绩表</th>\n";
+            echo "<th>".$field_name."</th>\n";
         }
         echo "</tr>\n";
         while($row=mysql_fetch_row($res)){
@@ -140,7 +140,7 @@ echo " </form>\n";
             for($i=0; $i<$colums-1; $i++){
 			 # if($row[$i]!="" and ($i==6 or $i==7 or $i==8)){$row[$i]=round($row[$i],2);}
 			 # if($row[$i]!="" and ($i==6 or $i==14 or $i==15 or $i==16 or $i==17 or $i==18)){$row[$i]=iconv('GBK','UTF-8',$row[$i])."%";}
-              echo "<td>".iconv('GBK','UTF-8',$row[$i])."</td>\n";
+              echo "<td>".$row[$i]."</td>\n";
             }
             echo "</tr>\n";
         }
