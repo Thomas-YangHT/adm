@@ -137,7 +137,7 @@ echo " </form>\n";
         echo "</tr>\n";
         while($row=mysql_fetch_row($res)){
             echo "<tr>\n";
-            for($i=0; $i<$colums-1; $i++){
+            for($i=0; $i<$colums; $i++){
               echo "<td>".$row[$i]."</td>\n";
             }
             echo "</tr>\n";
