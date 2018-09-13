@@ -9,7 +9,7 @@ echo "  <title>CHENGJI Query</title>\n";
 echo "  <link rel='stylesheet' href='css/jquery-ui.css'>\n";
 echo "  <link rel='stylesheet' href='css/style.css'>\n";
 echo "  <script src='js/jquery-1.12.4.js'></script>\n";
-echo "  <script src='js/jquery-ui.js'></script>\n";
+echo "  <script src='js/jquery-ui.js'></script>\n ";
 
 echo " <script type='text/javascript'> \n";
 echo " function altRows(id){           \n";
@@ -130,7 +130,7 @@ echo " </form>\n";
         echo "</br><div style='margin:0 auto;text-align:center;font-size:22px;font-family:SimHei;'>欢迎您使用数据查询，数据如下：(共计".$rows."行".$colums."列)"."</div></br>\n";
         echo "<table class='altrowstable' id='alternatecolor' style='margin:0 auto;align:center;'> <tr>\n";
 		
-        for($i=0; $i < $colums-1; $i++){
+        for($i=0; $i < $colums; $i++){
             $field_name=mysql_field_name($res,$i);
             echo "<th>".$field_name."</th>\n";
         }
